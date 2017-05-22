@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		634FB3FF1E62B95000A246A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 634FB3FE1E62B95000A246A5 /* main.cpp */; };
+		634FB4131E634E1F00A246A5 /* Plate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 634FB4111E634E1F00A246A5 /* Plate.cpp */; };
+		63FA10CC1EAFC67000614365 /* Analysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63FA10CA1EAFC67000614365 /* Analysis.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		634FB3FB1E62B95000A246A5 /* A. oris HTS Data Analysis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "A. oris HTS Data Analysis"; sourceTree = BUILT_PRODUCTS_DIR; };
 		634FB3FE1E62B95000A246A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		634FB4111E634E1F00A246A5 /* Plate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plate.cpp; sourceTree = "<group>"; };
+		634FB4121E634E1F00A246A5 /* Plate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Plate.hpp; sourceTree = "<group>"; };
+		63FA10CA1EAFC67000614365 /* Analysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Analysis.cpp; sourceTree = "<group>"; };
+		63FA10CB1EAFC67000614365 /* Analysis.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Analysis.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		634FB3F21E62B94F00A246A5 = {
 			isa = PBXGroup;
 			children = (
+				634FB4111E634E1F00A246A5 /* Plate.cpp */,
+				63FA10CA1EAFC67000614365 /* Analysis.cpp */,
+				63FA10CB1EAFC67000614365 /* Analysis.hpp */,
+				634FB4121E634E1F00A246A5 /* Plate.hpp */,
 				634FB3FD1E62B95000A246A5 /* A. oris HTS Data Analysis */,
 				634FB3FC1E62B95000A246A5 /* Products */,
 			);
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634FB4131E634E1F00A246A5 /* Plate.cpp in Sources */,
 				634FB3FF1E62B95000A246A5 /* main.cpp in Sources */,
+				63FA10CC1EAFC67000614365 /* Analysis.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +258,7 @@
 				634FB4041E62B95000A246A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
